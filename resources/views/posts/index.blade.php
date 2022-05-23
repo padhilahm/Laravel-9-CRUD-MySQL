@@ -24,6 +24,8 @@
             <div class="col-md-12">
                 <h1>Posts</h1>
                 <a href="{{ route('posts.create') }}" class="btn btn-primary">Create</a>
+                <a href="{{ route('logout') }}" class="btn btn-danger">Logout</a>
+
                 <table class="table">
                     <thead>
                         <tr>
